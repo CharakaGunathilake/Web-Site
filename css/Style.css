@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #212529;
+    --secondary-color: #343a40;
+    --accent-color: #007bff;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+h1 {
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+.img-fluid {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.fade-in {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.card {
+    background-color: var(--secondary-color);
+    border: 1px solid #444;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.profile-overlay {
+    background-color: rgba(0, 0,) 
+}
